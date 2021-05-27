@@ -176,3 +176,56 @@ h2{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+      .all-containers{
+        width: 130%;
+        height: 100%;
+        border: 1px solid black;
+        border-right: 10px solid;
+        border-top: 6px solid black;
+      }
+
+      .body{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .buttons {
+        display: flex;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      body{
+        width: 125%;
+      }
+      .image-container {
+        display: flex;
+        width: 125%;
+        height: 300px;
+        justify-content: center;
+    }
+
+    #top-left-title {
+      padding: 0 5%;
+      display: flex;
+      font-size: 2rem;
+      font-family: 'Bebas Neue', cursive;
+      flex-wrap: nowrap;
+      justify-content: stretch;
+      text-align: initial;
+  }
+
+  .nav li {
+    display: flex;
+    padding: 2%;
+    margin: auto;
+    }
+  }
